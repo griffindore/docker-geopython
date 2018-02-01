@@ -16,7 +16,21 @@ and some apk packages.
 
 - linux-headers
 - build-base
+- llvm-dev
+- llvm
+- clang
+- libpng-dev
+- freetype-dev
 
+and some pip packages.
+
+- llvmlite: 0.21.0
+- numba: 0.36.1
+- numpy: 1.14
+- pandas: 0.22.0
+- geopandas: 0.3.0
+- Rtree: 0.8.3
+- Shapely: 1.6.4.post1
 
 ## Supported versions
 
