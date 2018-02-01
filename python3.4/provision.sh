@@ -9,6 +9,7 @@ GEOS_VERSION=3.6.1
 PROJ_VERSION=4.9.3
 PROJ_DATUMGRID_VERSION=1.6
 GDAL_VERSION=2.2.0
+SPATIALINDEX_VERSION=1.8.5
 
 
 # Install libraries
@@ -50,6 +51,18 @@ cd gdal-${GDAL_VERSION}
 ./configure --enable-silent-rules --with-static-proj4=/usr/local/lib
 make -s
 make -s install
+
+
+# Install libspatialindex
+# ===================================================================
+cd /tmp
+wget http://download.osgeo.org/libspatialindex/spatialindex-src-${SPATIALINDEX_VERSION}.tar.gz
+tar xzf spatialindex-src-${SPATIALINDEX_VERSION}.tar.gz
+cd spatialindex-src-${SPATIALINDEX_VERSION}
+./configure --enable-silent-rules
+make -s
+make -s install
+ldconfig -n /usr/local/lib
 
 
 # Clean up
