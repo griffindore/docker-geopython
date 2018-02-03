@@ -1,6 +1,7 @@
 // workaround for musl's small stack size causing python segfaults
 // https://github.com/esnme/ultrajson/issues/254#issuecomment-314862445#include <dlfcn.h>
 
+#include <dlfcn.h>
 #include <pthread.h>
 
 typedef int (*func_t)(pthread_t *thread, const pthread_attr_t *attr, void *(*start_routine)(void*), void *arg);
