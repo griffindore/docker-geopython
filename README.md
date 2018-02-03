@@ -35,6 +35,4 @@ and some pip packages.
 ## Supported versions
 
 - Python2.7: [griffindore/geopython:2.7alpine3.6](https://github.com/griffindore/docker-geopython/tree/master/python2.7)
-- Python3.4: [griffindore/geopython:3.4alpine3.4](https://github.com/griffindore/docker-geopython/tree/master/python3.4)
-- Python3.5: [griffindore/geopython:3.5alpine3.4](https://github.com/griffindore/docker-geopython/tree/master/python3.5)
 - Python3.6: [griffindore/geopython:3.6alpine3.6](https://github.com/griffindore/docker-geopython/tree/master/python3.6)
