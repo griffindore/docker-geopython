@@ -1,7 +1,7 @@
 # GeoPython
 
 This is docker image for geo programming with python.  
-It's based on [official python image](https://hub.docker.com/_/python/).
+It's based on [odoku/geopython](https://hub.docker.com/r/odoku/geopython/) which is based on [official python image](https://hub.docker.com/_/python/).
 
 
 ## Including
@@ -24,8 +24,8 @@ and some apk packages.
 
 and some pip packages.
 
-- llvmlite: 0.21.0
-- numba: 0.36.1
+- llvmlite: 0.20.0
+- numba: 0.35
 - numpy: 1.14
 - pandas: 0.22.0
 - geopandas: 0.3.0

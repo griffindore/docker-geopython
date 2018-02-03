@@ -1,4 +1,4 @@
-FROM python:3.5-alpine
+FROM odoku/geopython:3.5
 
 RUN apk add --no-cache --update \
     llvm-dev \
